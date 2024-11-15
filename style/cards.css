@@ -1,0 +1,74 @@
+.cards-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .cards {
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .cards-container > p {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    color: #374151;
+  }
+  
+  .card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 300px;
+    max-width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  .add-to-cart {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }.add-to-cart:hover
+  {
+    background-color: #7c68b4;
+  }
+  .card:hover {
+    cursor: pointer;
+    transform: translateY(-10px) scale(1.02);
+  }
+  
+  .card :nth-child(2) {
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+     
+  
+  .card-image {
+    padding: 1px;
+    border: 3px solid #b6b5b598;
+    width: 200PX;
+    height: 200PX;
+  }
